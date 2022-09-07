@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The City of Hope Foundation, TCOH is a non goverment organisation dedicated to empowering African youths starting with the Nigeria with the 'change begins with me mindset'.">
+  <meta name="keywords" content="TCOH Foundation, Nigerian Youths, Nigeria, Africa, Women">
+  <link rel="shortcut icon" href="/images/tcoh newwwwww.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px" href="css/media.css">
+  <title>TCOH|About</title>
+</head>
+<body>
+<header>
+  <nav id="navbar">
+    <div class="container">
+      <!-- putting the logo and lists in a ontainer to be able to style it independently from the whole navbar -->
+      <!-- if you put the container before the nav, after styling, the nav bar wouldn,t get to the end of the width of the broswer because it is restricted within the container -->
+      <!-- also the container is a class and not an id because we will be using it throughout the site development as contents are put inside the container. -->
+      <div id="forlogo">
+      <a class="logo" href="index.html">
+        <img src="/images/tcoh newwwwww.png" alt="logo">
+      </a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+        <li><a href="events.html">Events</a></li>
+        <!-- <li><a href="programs.html">Programs</a></li> -->
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<section id="contact-form" class="py-3">
+<div class="container">
+  <h1 class="l-heading"><span class="text-primary">Contact</span> TCOH</h1>
+  <p>Please fill out the form below to contact us</p>
+   <form action="process.php">
+     <div class="form-group">
+       <label for="name">Name</label>
+       <input type="text" name="name" id="name">
+     </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+   </form>
+</div>
+</section>
+
+<section id="contact-info" class="bg-dark">
+<div class="container"> 
+  <div class="box">
+    <i class="fas fa-street-view fa-2x"></i>
+    <!-- this represents the icon's tag gotten from the font awesome website. fas represents fontawesome class and fa-glasses represents the icon's tag -->
+    <!-- if the icon is too small, you can always change the font size since it is a font but you can also use some classes eg fa-3x which will make the icon 3x as big-->
+    <h3>Location</h3> 
+    <!-- <p>Helping the less privilege, empowering young lives and making the world a better place for all.</p> -->
+    <p>4, unity Close, Ikorodu, Lagos, Nigeria. </p>
+  </div>
+  <div class="box">
+    <i class="fas fa-phone fa-2x"></i>
+    <h3>Phone Number</h3>
+    <p>+234 818 902 1044</p>
+  </div>
+  <div class="box">
+    <i class="far fa-envelope fa-2x"></i>
+    <h3>Email Address</h3>
+    <p>thecityofhopefoundation@gmail.com</p>
+  </div>
+</div>
+</section>
+
+<footer id="main-footer">
+<p>The City of Hope Foundation &copy;2019, all rights reserved</p>
+</footer>
+</body>
+</html>

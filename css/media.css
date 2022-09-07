@@ -1,0 +1,73 @@
+#navbar .logo{
+  float: none;
+}
+
+div#forlogo{
+  text-align: center;
+  /* since it is an image and not a text, the text-align aribute won't work for it, so put the image in a div, give it a class or an id then center it using the text-align attribute.  */
+  padding-top: 18px;
+}
+
+#navbar ul, #navbar ul li{
+float: none;
+}
+
+#navbar ul li a{
+  padding: 7.5px;
+  border-bottom: #444 solid 3px;
+} 
+
+/* Showcase */
+#showcase{
+  height: 100%;
+}
+
+ 
+
+.btn{
+ font-size: 16px;
+ background: white;
+ color: #333;
+}
+
+/* Home Info */
+/* #home-info{
+  height: 550px;
+} */
+
+#home-info .info-img{
+  display: none;
+}
+
+#home-info .info-content{
+  float: right;
+  width: 100%;
+ }
+
+ /* Boxes */
+ .box{
+   float: none;
+   width: 100%;
+ }
+
+ /*About */
+ #about-info .info-right,
+ #about-info .info-left{
+   float: none;
+   width: 100%;
+ }
+
+ #about-info .info-right{
+   margin-top: 30px;
+ }
+
+ .l-heading{
+   text-align: center;
+ }
+
+ /* Contacts */
+ #contact-info .box{
+   border-bottom: #444 dotted 1px;
+   padding: 30px;
+   line-height: 0;
+ }

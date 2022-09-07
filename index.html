@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The City of Hope Foundation, TCOH is a non goverment organisation dedicated to empowering African youths starting with the Nigeria with the 'change begins with me mindset'.">
+  <meta name="keywords" content="TCOH Foundation, Nigerian Youths, Nigeria, Africa, Women">
+  <link rel="shortcut icon" href="/images/tcoh newwwwww.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/media.css">
+  <!-- linking to the media query and the value of the media attribut (max-width:768px) means  the webpage shouldn't load it unless the screen is 768px i.e tabs and smartphones or any small device with screen of 768px or less-->
+  <title>TCOH|Home</title>
+</head>
+<body>
+<header>
+  <nav id="navbar">
+    <div class="container">
+      <!-- putting the logo and lists in a container to be able to style it independently from the whole navbar -->
+      <!-- if you put the container before the nav, after styling, the nav bar wouldn,t get to the end of the width of the broswer because it is restricted within the container -->
+      <!-- also the container is a class and not an id because we will be using it throughout the site development as contents are put inside the container. -->
+      <div id="forlogo">
+        <a class="logo" href="index.html">
+        <img src="/images/tcoh newwwwww.png" alt="logo">
+        </a></div>
+      <ul>
+        <li><a class="current" href="index.html">Home</a> </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="events.html">Events</a></li>
+       <!-- <li><a href="programs.html">Programs</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div id="showcase"> 
+    <div class="container">
+      <!-- used for the contents in this case. also used to after the showcase to prevent the contents from going outside the showcase i.e containing the contents within the showcase  -->
+      <div class="showcase-content">
+         <!-- housing the contents of the showcase which is inside the container -->
+        <h1><span class="text-primary">Welcome</span> to an <span class="text-primary"></Welcome>Opportunity</span> to make <span class="text-primary">Significant Impacts</span> </h1>
+        <!-- the span is used to style the opprtunity and significant impact differently. it is a class as we are using it more thsn once in this web page -->
+        <p class="lead">Your journey towards this goal starts here</p>
+        <!-- we added the class because we want to style this paragraph text different from other paragraphs in the web page -->
+        <h4>JOIN OUR TEAM OF VOLUNTEERS</h4>
+        <a class="btn" href="#">VOLUNTEER TODAY</a>
+        <!-- because the link will be in the shape of a button -->
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="home-info" class="bg-dark">
+<div class="info-img"></div>
+<div class="info-content">
+  <h2>TCOH <span class="text-primary">History</span></h2>
+  <p>We are part of the world's growing organisation dedicated to empowering African Youths starting
+    with Nigeria on with the 'change begins with me' mindset.
+    Like Maria Angelou said if you don't like something, change it. If you can't change it, change your
+    attitude.
+    We believe that every change is possible and we have the ability to make these changes.
+    We at TCOH Foundation do not like the increasing rate of out of school students, youths(especially
+    children) hawking during school hours and taking to the streets and so we</p>
+    <a href="about.html" class="btn btn-light">READ MORE</a>
+    <!-- btn-light represents another button with a background color different from the first one used (class=btn). it is a btn in class in the utility button-->
+    <!-- This button has all the traits of the first button because they both have the class of btn. the only difference is we want this btn to be light -->
+  </div>
+</section>
+
+<section id="features">
+<div class="box bg-light">
+  <i class="fas fa-glasses fa-2x"></i>
+  <!-- this represents the icon's tag gotten from the font awesome website. fas represents fontawesome class and fa-glasses represents the icon's tag -->
+  <!-- if the icon is too small, you can always change the font size since it is a font but you can also use some classes eg fa-3x which will make the icon 3x as big-->
+  <h3>Vision Statement</h3> 
+  <!-- <p>Helping the less privilege, empowering young lives and making the world a better place for all.</p> -->
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, earum?</p>
+</div>
+<div class="box bg-primary">
+  <i class="fas fa-bullseye fa-2x"></i>
+  <h3>Mission Statement</h3>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, inventore.</p>
+</div>
+<div class="box bg-light">
+  <i class="far fa-heart fa-2x"></i>
+  <h3>Our Values</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ullam.</p>
+</div>
+</section>
+
+<div class="clr"></div>
+
+<footer id="main-footer">
+<p>The City of Hope Foundation &copy;2019, all rights reserved</p>
+</footer>
+</body>
+</html>
